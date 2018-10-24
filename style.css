@@ -1,0 +1,39 @@
+/*-------------------*\
+    VARIABLES
+\*-------------------*/
+@import url("https://fonts.googleapis.com/css?family=Niramit|Oswald");
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*-------------------*\
+    HEADER
+\*-------------------*/
+.header {
+  background-color: #aeaeae;
+  margin: -0.5em;
+  padding: 0.8em;
+  font-family: "Niramit";
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header_logo {
+  font-size: 2em;
+  color: #78909c;
+  font-family: "Oswald";
+}
+
+/*-------------------*\
+    NAV
+\*-------------------*/
+/*-------------------*\
+    CONTAINER
+\*-------------------*/
+/*-------------------*\
+    FOOTER
+\*-------------------*/
+
+/*# sourceMappingURL=style.css.map */
