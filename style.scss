@@ -7,6 +7,7 @@ $colorclassic: #78909c;
 @import url('https://fonts.googleapis.com/css?family=Niramit|Oswald');
 
 a{text-decoration: none;color:inherit;}
+li{list-style-type: none;}
 
 /*-------------------*\
     HEADER
@@ -28,13 +29,23 @@ a{text-decoration: none;color:inherit;}
     font-family: 'Oswald';
 }
 
+.header_logo:hover{
+    text-shadow: 1px 1px 2px darken($bckgrnd, 20% );
+}
+
 
 /*-------------------*\
     NAV
 \*-------------------*/
 
+.menu li{
+    display : inline;
+	padding : 0 0.5em;
+}
 
-
+.menu a:hover{
+    text-shadow: 1px 1px 1px black;
+}
 /*-------------------*\
     CONTAINER
 \*-------------------*/
