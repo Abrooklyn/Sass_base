@@ -14,8 +14,9 @@ li {
 /*-------------------*\
     HEADER
 \*-------------------*/
-.header {
-  background-color: #aeaeae;
+.header, .footer {
+  background-color: #c4c4c4;
+  width: 100%;
   margin: -0.5em;
   padding: 0.8em;
   font-family: "Niramit";
@@ -26,12 +27,12 @@ li {
 
 .header_logo {
   font-size: 2em;
-  color: #78909c;
+  color: #2a7397;
   font-family: "Oswald";
 }
 
 .header_logo:hover {
-  text-shadow: 1px 1px 2px #7b7b7b;
+  text-shadow: 1px 1px 2px #919191;
 }
 
 /*-------------------*\
@@ -49,8 +50,52 @@ li {
 /*-------------------*\
     CONTAINER
 \*-------------------*/
+.containers, .container4, .container3, .container2, .container1 {
+  width: 70%;
+  background-color: #dedede;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2em;
+}
+
+.container1 {
+  padding: 0.5em;
+}
+.container1 h1 {
+  font-size: 1.7em;
+}
+
+.container2 {
+  padding: 0.5em;
+}
+.container2 h2 {
+  font-size: 1.5em;
+}
+
+.container3 {
+  padding: 0.5em;
+}
+.container3 h3 {
+  font-size: 1.3em;
+}
+
+.container4 {
+  padding: 0.5em;
+}
+.container4 h1 {
+  font-size: 1em;
+}
+
 /*-------------------*\
     FOOTER
 \*-------------------*/
+.footer {
+  height: 7em;
+}
+
+.footer a:hover {
+  text-shadow: 1px 1px 1px black;
+}
 
 /*# sourceMappingURL=style.css.map */
